@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="/assets/favicon.ico" />
-    <title>British Columbia Email Verification Service</title>
+    <link rel="shortcut icon" href="/assets/kob.ico" />
+    <title>KochiOrgBook Email Verification Service</title>
     <meta
       name="description"
       content="An email verification service used to issue a verifiable credential asserting that you are the owner of an email address."
@@ -55,13 +55,13 @@
 
               el = document.querySelector('#credential-issued');
               el.style.display = 'block';
-              
+
               el = document.querySelector('#email-placeholder');
               el.textContent = state["email"]
 
               clearInterval(interval)
             }
-            
+
           } catch (e) {
             console.error(e)
           }
@@ -84,18 +84,18 @@
           <a class="navbar-brand" href="/">
             <img
               class="img-fluid d-none d-md-block"
-              src="/assets/images/bcid-logo-rev-en.svg"
+              src="/assets/images/kob_logo.svg"
               width="177"
               height="44"
-              alt="B.C. Government Logo"
+              alt="KochiOrgBook Logo"
             />
 
             <img
               class="img-fluid d-md-none"
-              src="/assets/images/bcid-symbol-rev.svg"
+              src="/assets/images/kob_logo.svg"
               width="63"
               height="44"
-              alt="B.C. Government Logo"
+              alt="KochiOrgBook Logo"
             />
           </a>
           <div class="navbar-brand">
